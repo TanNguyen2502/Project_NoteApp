@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.borderStyle {
+  @apply border border-rose-500;
+}
+
+.alert-icon-style {
+  @apply pl-4 text-red-500;
+}
+.alert-contain {
+  @apply pl-2 inline-block mb-2 text-sm font-medium text-red-500;
+}
+
+.frame-modal-1 {
+  @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+}
+.frame-modal-2 {
+  @apply relative w-full max-w-md max-h-full;
+}
+.frame-modal-3 {
+  @apply relative rounded-lg shadow bg-white;
+}
+.frame-modal-4 {
+  @apply px-6 py-6 lg:px-8;
+}
+.frame-modal-title {
+  @apply mb-4 text-xl font-semibold text-gray-900 text-center;
+}
+.label-modal {
+  @apply block mb-1 text-sm font-medium text-gray-900;
+}
+.input-modal-style {
+  @apply border text-gray-900 text-sm rounded-lg focus:outline outline-offset-0 outline-primary-500 block w-full p-2.5;
+}
+.button-modal {
+  @apply w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+}
+.alter-link {
+  @apply text-blue-700 hover:underline hover:text-blue-900;
+}
+
+.background-crud-modal {
+  @apply opacity-25 fixed inset-0 z-10 bg-black;
+}
+.frame-crud-modal-2 {
+  @apply relative p-4 w-full max-w-lg h-full md:h-auto;
+}
+.frame-crud-modal-3 {
+  @apply relative p-4 bg-white rounded-lg shadow sm:p-5;
+}
+.frame-crud-modal-4 {
+  @apply flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-5;
+}
+.title-crud-modal {
+  @apply text-xl font-bold text-gray-900;
+}
+.button-close-crud-modal {
+  @apply bg-transparent hover:bg-primary-500 hover:text-white rounded-lg text-sm p-1.5 ml-auto inline-flex items-center;
+}
+.label-crud-modal {
+  @apply inline-block mb-2 text-sm font-medium text-primary-500;
+}
+.frame-input-crud-modal {
+  @apply flex justify-between items-center rounded-t sm:mb-5;
+}
+.input-crud-modal {
+  @apply focus:outline outline-offset-0  outline-primary-500 text-gray-900 text-sm rounded-lg block w-full p-2.5 placeholder-gray-400;
+}
+.button-crud-modal {
+  @apply hover:bg-primary-500 hover:text-white inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+}
+
+.folder-note-title {
+  @apply pt-1 pl-2 font-semibold text-lg flex justify-between items-center;
+}
+.icon-create-folder-note {
+  @apply text-right pr-4 text-xl cursor-pointer;
+}
+.item-folder-note {
+  @apply mx-3 my-2 py-2 pl-3 pr-3 rounded font-semibold bg-darkBlue hover:bg-primary-500 text-white shadow-lg;
+}

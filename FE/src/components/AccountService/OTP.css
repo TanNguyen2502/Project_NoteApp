@@ -1,0 +1,13 @@
+.otp-parent-container {
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 15px;
+}
+.otp-parent-container .input-otp-container .input-customize {
+  width: 3rem !important;
+  height: 3rem;
+  margin: 0 1rem;
+  font-size: 2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
